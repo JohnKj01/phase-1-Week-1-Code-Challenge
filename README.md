@@ -1,4 +1,6 @@
 # phase-1-Week-1-Code-Challenge
+Project set-up
+The projects described below are hosted in independent folders (folders in this respository) each containing: index.html (DOM), style.css(styling), index.js (script)
 
 Challenge 1: Student Grade Generator (Toy Problem):
   The program prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade as follows: 
