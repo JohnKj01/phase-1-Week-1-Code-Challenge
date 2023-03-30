@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-7" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Grade Generator</h1>
+    <form>
+      <label for="marks">Enter marks:</label>
+      <input  id="marks" type="number"name="marks" min="0" max="100" required />
+      <button type="submit" onclick="calculateGrade()">Submit</button>
+      <p id="result"></p>
+    </form>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <h1>Speed Detector</h2>
+    <form>
+      <label for="speed">Check your verdict</label>
+      <input type="number" placeholder="Input speed" id="speed" required />
+      <button onclick="checkSpeed()" id="btn" type="button">Submit</button>
+      <p id="momentum"></p>
+    </form>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <h1>Salary Calculator (Net Salary)</h2>
+    <form>
+      <label for="basic-salary">Basic Income </label>
+      <input type="number" id="basic-salary" name="basic-salary" required />
+      <br />
+      <br />
+      <br />
+      <label for="benefits">Benefits</label>
+      <input type="number" id="benefits" name="benefits" />
+      <br />
+      <br />
+      <button type="button" onclick="calculateSalary()">View Net Salary</button>
+      <p id="salary"></p>
+    </form>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+  </body>
+</html>

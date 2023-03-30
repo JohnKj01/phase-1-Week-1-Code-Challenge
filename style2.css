@@ -1,0 +1,15 @@
+body {
+    background-color: lightslategrey;
+    align-items: center;
+    margin-top: 15px;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    text-align: center;
+    text-size-adjust: 30;
+    content: '\e8b9';
+}
+button {
+  color: white;
+  background-color: rgb(80, 16, 230);
+}
